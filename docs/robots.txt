@@ -1,1 +1,1 @@
-Sitemap: https://shackste.github.io/CAS-Deep-Learning-grundlagen/sitemap.xml
+Sitemap: https://shackste.github.io/stefan-hackstein-portfolio/sitemap.xml
