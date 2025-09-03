@@ -9,6 +9,7 @@ project:
   render:
     - index.qmd
     - portfolio/**
+    - cv/**
     
 website:
   title: "Dr. Stefan Hackstein"
@@ -41,12 +42,16 @@ website:
         href: portfolio/index.qmd
         text: Portfolio
 
+      - icon: file-earmark-person
+        href: cv/index.qmd
+        text: Curriculum Vitae
+
 
 
   sidebar:
     - id: portfolio
       title: "Portfolio"
-      logo: 1x1.png
+      logo: assets/1x1.png
       style: "docked"
       search: true
       background: light
@@ -69,11 +74,11 @@ website:
         - href: portfolio/videos.qmd
           text: Videos
 
-        - href: portfolio/media.qmd
-          text: Medienauftritte
-
         - href: portfolio/podcast.qmd
           text: Podcast
+
+        - href: portfolio/media.qmd
+          text: Medienauftritte
 
         - href: portfolio/codes.qmd
           text: Programmcodes

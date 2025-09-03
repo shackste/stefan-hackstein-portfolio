@@ -8,7 +8,9 @@ Meine Vorlesungen sind nach dem Prinzip des **Half-Flip Classroom** aufgebaut, w
 
 Bisher habe ich folgende Vorlesungen nach diesem Prinzip konzipiert und gehalten:
   
-- **Vertiefung Analysis (Data Science & Informatik)**, FHNW, Studiengang [BSc Data Science](https://www.fhnw.ch/de/studium/module/9316470) & [BSc Informatik](https://www.fhnw.ch/de/studium/module/9118563), 
+- **Vertiefung Analysis (Data Science & Informatik)**
+  FHNW, Studiengang [BSc Data Science](https://www.fhnw.ch/de/studium/module/9316470) & [BSc Informatik](https://www.fhnw.ch/de/studium/module/9118563), 
   [Lernvideos](https://tube.switch.ch/channels/uL4JPQkDlv)  
-- **Mathematische Grundlagen der Informatik**, FHNW, Studiengang [BSc Informatik](https://www.fhnw.ch/de/studium/module/9813296)
+- **Mathematische Grundlagen der Informatik**
+  FHNW, Studiengang [BSc Informatik](https://www.fhnw.ch/de/studium/module/9813296)
   

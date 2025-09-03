@@ -1,0 +1,5 @@
+---
+title: "Curriculum Vitae"
+---
+
+{{< pdf /assets/pdf/cv.pdf >}}

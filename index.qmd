@@ -8,15 +8,17 @@ about:
 
 ---
 
+::: {style="float: left; margin: 15px;"}
+![](assets/me.png){width=250}
+:::
 
-![assets/me.png]()
+**Experte für Arbeiten, Lehren und Lernen mit KI**
 
+Als promovierter Physiker, Datenwissenschaftler und Dozent stehen meine Kenntnisse am Schnittpunkt zwischen künstlicher Intelligenz, Lehre und Wissenschaft.
+Mit grosser Begeisterung teste ich verschiedenste Einsatzmöglichkeiten dieser Technologie, immer mit kritischem Blick auf den erreichten Mehrwert, sowie auf die damit verbundenen Kosten und Gefahren, sowohl für die Gesellschaft als auch für den einzelnen Nutzer.
+Mit meinem Talent, abstrakt theoretische Konzepte in lebhafte Handlungsanweisungen zu verwandeln, vermittle ich leidenschaftlich meine Expertise an andere.
 
-Experte für den praktischen Einsatz von KI, insbesondere in der Lehre
-
-Als promovierter Physiker, Datenwissenschaftler und Dozent 
-
-Ich vereine wissenschaftliches und kreatives Denken mit einem feinen Gespür für verschideneste Fehlerquellen im Denkprozess, sowohl bei menschlicher als auch bei künstlicher Intelligenz.
+Wissenschaftliches und kreatives Denken vereine ich mit einem feinen Gespür für verschiedenste Fehlerquellen im Denkprozess, sowohl beim Mensch als auch bei der KI.
 Damit biete ich ein einzigartiges Verständnis zur konstruktiven Nutzung von KI-Tools sowie die Auswirkungen auf Produkt und Benutzer.
 
 Diese transformativen Einsichten möchte ich gern mit Ihnen teilen, z. B. in Form von Vorträgen, Workshops oder Konsultationen.

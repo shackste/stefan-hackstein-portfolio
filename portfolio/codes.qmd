@@ -4,11 +4,12 @@ title: "Programmiercodes"
 
 
 - **Evaluation Metrics for galaxy image generators**  
-  [https://github.com/shackste/generative_models_evaluation_metrics](https://github.com/shackste/generative_models_evaluation_metrics)
+  [github](https://github.com/shackste/generative_models_evaluation_metrics)
 
-- **galaxy image generators (GAN & Diffusion)**  
-  [https://github.com/shackste/diffusion_galaxies](https://github.com/shackste/diffusion_galaxies)  
-  [https://github.com/shackste/galaxy-generator](https://github.com/shackste/galaxy-generator)
+- **galaxy image generators (genAI: VAE, GAN & Diffusion)**  
+  [Diffusion](https://github.com/shackste/diffusion_galaxies)  
+  [GAN](https://github.com/shackste/galaxy-generator)
 
-- **PreFRBLE**  
-  [https://github.com/FRBs/PreFRBLE](https://github.com/FRBs/PreFRBLE)
+- **PrEFRBLE: Probability Estimates for Fast Radio Bursts to model Likelihood Estimates** 
+  (Framework for Cosmological Bayesian Inference) 
+  [github](https://github.com/FRBs/PreFRBLE)
