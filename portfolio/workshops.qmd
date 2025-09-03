@@ -1,0 +1,19 @@
+---
+title: "Workshops"
+---
+
+
+- **CAS Deep Learning**  
+  [https://shackste.github.io/CAS-Deep-Learning-grundlagen/](https://shackste.github.io/CAS-Deep-Learning-grundlagen/)
+
+- **KI in der Lehre: Beginner**  
+  [https://virtuelleakademie.github.io/ki-lehre-beginner/](https://virtuelleakademie.github.io/ki-lehre-beginner/)
+
+- **KI am Arbeitsplatz**  
+  [https://www.fhnw.ch/de/weiterbildung/informatik/ki-am-arbeitsplatz](https://www.fhnw.ch/de/weiterbildung/informatik/ki-am-arbeitsplatz)
+
+- **Denken statt Delegieren** 
+  [https://virtuelleakademie.github.io/denken-statt-delegieren/](https://virtuelleakademie.github.io/denken-statt-delegieren/)
+
+- **CAS Hochschuldidaktik - Modul: KI in der Lehre**  
+  [https://slides.com/stefanhackstein/ki-lehre](https://slides.com/stefanhackstein/ki-lehre)

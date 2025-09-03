@@ -1,23 +1,29 @@
 ---
-# title: "CAS Deep Learning - Grundlagen"
+#title: ""
 format:
   html:
     toc: false
 about:
   template: marquee #trestles
-#  image: "assets/fhnw-logo.png"
-  links:
-    - icon: inbox-fill
-      text: Email
-      href: mailto:stefan.hackstein@fhnw.ch    
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/stefan-hackstein-a914b81a5/
+
 ---
 
 
-This is a webpage template
+![assets/me.png]()
 
+
+Experte für den praktischen Einsatz von KI, insbesondere in der Lehre
+
+Als promovierter Physiker, Datenwissenschaftler und Dozent 
+
+Ich vereine wissenschaftliches und kreatives Denken mit einem feinen Gespür für verschideneste Fehlerquellen im Denkprozess, sowohl bei menschlicher als auch bei künstlicher Intelligenz.
+Damit biete ich ein einzigartiges Verständnis zur konstruktiven Nutzung von KI-Tools sowie die Auswirkungen auf Produkt und Benutzer.
+
+Diese transformativen Einsichten möchte ich gern mit Ihnen teilen, z. B. in Form von Vorträgen, Workshops oder Konsultationen.
+Bei Interesse kontaktieren sie mich gern einfach per Email:
+[shackst3@gmail.com](mailto:shackst3@gmail.com)
+
+Unter [Portfolio](portfolio/index.qmd) finden Sie eine Auswahl meiner bisherigen Leistungen.
 
 
 

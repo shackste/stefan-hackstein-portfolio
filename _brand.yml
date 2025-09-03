@@ -7,9 +7,9 @@ color:
   primary: black
 
 logo: 
-   small: assets/logo-fhnw.png
+   small: assets/1x1.png
    medium: assets/1x1.png
-
+   large: assets/me.png
 typography:
   fonts:
     - family: Jura

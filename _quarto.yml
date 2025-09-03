@@ -1,227 +1,84 @@
 project:
   type: website
   resources:
-    - assets/*
-    - assets/images/*
-    - assets/pdfs/*
-    - slides/**
+    - assets/**
   preview:
     port: 8800
     browser: false
   output-dir: docs
   render:
     - index.qmd
-    - workshop/**/*.qmd
-    - slides/**/*.qmd
-    - exercises/**/*.qmd
-
+    - portfolio/**
+    
 website:
-  title: "CAS Deep Learning - Grundlagen"
-  site-url: https://shackste.github.io/CAS-Deep-Learning-grundlagen/
+  title: "Dr. Stefan Hackstein"
+  site-url: https://shackste.github.io/stefan-hackstein-portfolio/
   favicon: /assets/robot.png
   open-graph: true
   search:
     location: navbar
     type: overlay
+    
+  body-footer: |
+    <div style="text-align:center; font-size:0.9em; margin-top:2rem;">
+      <a href="mailto:shackste@gmail.com" style="margin-right: 1em;">
+        <i class="bi bi-inbox-fill"></i> Email
+      </a>
+      <a href="https://www.linkedin.com/in/stefan-hackstein-a914b81a5/">
+        <i class="bi bi-linkedin"></i> LinkedIn
+      </a>
+    </div>
+
 
   reader-mode: false
   page-navigation: true
   back-to-top-navigation: true
-
-  body-footer: |
-   <br><br><br><br>
-   Content licensed under [CC BY](https://creativecommons.org/licenses/by/4.0/), 
-   Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/"
  
   navbar:
     background: light
     left:
-      - icon: card-list
-        href: workshop/index.qmd
-        text: Workshop
-        menu:
-          - icon: calendar
-            href: workshop/tag1.qmd
-            text: Tag 1
-          - icon: calendar
-            href: workshop/tag2.qmd
-            text: Tag 2
-          - icon: calendar
-            href: workshop/tag3.qmd
-            text: Tag 3
+      - icon: duffle
+        href: portfolio/index.qmd
+        text: Portfolio
 
-      - icon: file-slides
-        href: slides/index.qmd
-        text: Slides
-        menu:
-          - icon: file
-            href: slides/0a-was-ist-ki/index.html
-            text: Was ist KI?
-          - icon: file
-            href: slides/0-overview/index.html
-            text: Übersicht
-          - icon: file
-            href: slides/1-daten-erkunden/index.html
-            text: Daten erkunden
-          - icon: file
-            href: slides/2-training/index.html
-            text: Training
-          - icon: file
-            href: slides/3-evaluieren/index.html
-            text: Evaluieren
-          - icon: file
-            href: slides/4-overfitting/index.html
-            text: Overfitting
-          - icon: file
-            href: slides/5-regularisieren/index.html
-            text: Regularisieren
-          - icon: file
-            href: slides/6-optimieren/index.html
-            text: Optimieren
-          - icon: file
-            href: slides/7-anwendungen/index.html
-            text: Anwendungen
-          - icon: file
-            href: slides/8-historie/index.html
-            text: Geschichte des DL
-          - icon: file
-            href: slides/9-zusammenfassung/index.html
-            text: Zusammenfassung
 
-      - icon: book
-        text: Slides (PDF)
-        menu:
-          - icon: file
-            href: slides/pdfs/ki-basics.pdf
-            text: Was ist KI?
-          - icon: file
-            href: slides/pdfs/deep-learning-overview.pdf
-            text: Übersicht
-          - icon: file
-            href: slides/pdfs/deep-learning-daten-erkunden.pdf
-            text: Daten erkunden
-          - icon: file
-            href: slides/pdfs/deep-learning-training.pdf
-            text: Modell & Training
-          - icon: file
-            href: slides/pdfs/deep-learning-evaluieren.pdf
-            text: Evaluieren
-          - icon: file
-            href: slides/pdfs/deep-learning-overfitting.pdf
-            text: Overfitting 
-          - icon: file
-            href: slides/pdfs/deep-learning-regularisieren.pdf
-            text: Regularisieren
-          - icon: file
-            href: slides/pdfs/deep-learning-optimieren.pdf
-            text: Optimieren  
-          - icon: file
-            href: slides/pdfs/deep-learning-grenzen.pdf
-            text: Möglichkeiten & Grenzen
-          - icon: file
-            href: slides/pdfs/deep-learning-anwendungen.pdf
-            text: Anwendungen
-          - icon: file
-            href: slides/pdfs/deep-learning-historie.pdf
-            text: Geschichte des Deep Learning
-          - icon: file
-            href: slides/pdfs/deep-learning-zusammenfassung.pdf
-            text: Zusammenfassung
-
-      - icon: pencil
-        href: exercises/index.qmd
-        text: Exercises
-        menu:
-          - icon: file
-            href: exercises/1-daten_erkunden.qmd
-            text: Daten erkunden
-          - icon: file
-            href: exercises/2-training.qmd
-            text: Training
-          - icon: file
-            href: exercises/3-evaluieren.qmd
-            text: Evaluieren
-          - icon: file
-            href: exercises/4-overfitting.qmd
-            text: Overfitting
-          - icon: file
-            href: exercises/5-regularisieren.qmd
-            text: Regularisieren
-          - icon: file
-            href: exercises/6-optimieren.qmd
-            text: Optimieren
-          - icon: file
-            href: exercises/7-anwendung.qmd
-            text: Anwendung
-          - icon: file
-            href: exercises/8-schritte.qmd
-            text: Schritte
-
-#    right:
-#      - icon: briefcase
-#        text: "Dokumente" # {{< fa person-chalkboard >}}
-#        menu:
-#          - text: "Begleitdokument: "
-#            file: assets/pdfs/Begleitdokument.pdf
 
   sidebar:
-    - title: "Workshop"
+    - id: portfolio
+      title: "Portfolio"
       logo: 1x1.png
       style: "docked"
       search: true
       background: light
       contents:
-        - workshop/index.qmd
-        - workshop/kursvorbereitung.qmd
-        - workshop/tag1.qmd
-        - workshop/tag2.qmd
-        - workshop/tag3.qmd
+        - href: portfolio/index.qmd
+          text: Übersicht
 
-    - title: "Exercises"
-      logo: 1x1.png
-      style: "docked"
-      search: true
-      background: light
-      contents:
-        - exercises/index.qmd
-        - exercises/1-daten_erkunden.qmd
-        - exercises/2-training.qmd
-        - exercises/3-evaluieren.qmd
-        - exercises/4-overfitting.qmd
-        - exercises/5-regularisieren.qmd
-        - exercises/6-optimieren.qmd
-        - exercises/7-anwendung.qmd
-        - exercises/8-schritte.qmd
+        - href: portfolio/workshops.qmd
+          text: Workshops
 
-    - title: "Slides"
-      logo: 1x1.png
-      style: "docked"
-      search: true
-      background: light
-      contents:
-        - slides/index.qmd 
-        - href: slides/0a-was-ist-ki/index.html
-          text: Input 0a - Was ist KI?
-        - href: slides/0-overview/index.html
-          text: Input 0 - Übersicht
-        - href: slides/1-daten-erkunden/index.html
-          text: Input 1 - Daten erkunden
-        - href: slides/2-training/index.html
-          text: Input 2 - Model & Training
-        - href: slides/3-evaluieren/index.html
-          text: Input 3 - Evaluieren
-        - href: slides/4-overfitting/index.html
-          text: Input 4 - Overfitting
-        - href: slides/5-regularisieren/index.html
-          text: Input 5 - Regularisieren
-        - href: slides/6-optimieren/index.html
-          text: Input 6 - Optimieren
-        - href: slides/7-anwendungen/index.html
-          text: Input 7 - Anwendungen
-        - href: slides/8-historie/index.html
-          text: Input 8 - Geschichte des Deep Learning
-        - href: slides/9-zusammenfassung/index.html
-          text: Input 9 - Zusammenfassung
+        - href: portfolio/lectures.qmd
+          text: Vorlesungen
+
+        - href: portfolio/talks.qmd
+          text: Vorträge
+
+        - href: portfolio/papers.qmd
+          text: Publikationen
+
+        - href: portfolio/videos.qmd
+          text: Videos
+
+        - href: portfolio/media.qmd
+          text: Medienauftritte
+
+        - href: portfolio/podcast.qmd
+          text: Podcast
+
+        - href: portfolio/codes.qmd
+          text: Programmcodes
+
+
 
 
 
