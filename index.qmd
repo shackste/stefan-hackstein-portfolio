@@ -9,7 +9,7 @@ about:
 ---
 
 ::: {style="float: left; margin: 15px;"}
-![](assets/me.png){width=250}
+![](assets/me.png){width=280}
 :::
 
 **Experte für Arbeiten, Lehren und Lernen mit KI**
