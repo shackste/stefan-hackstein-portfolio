@@ -1,5 +1,6 @@
 ---
 title: "Curriculum Vitae"
+format: html
 ---
 
-{{< pdf /assets/pdf/cv.pdf >}}
+{{< pdf /assets/pdf/cv.pdf width=100% height=800 >}}
