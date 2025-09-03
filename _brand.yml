@@ -1,0 +1,18 @@
+color:
+  palette:
+    dark-grey: "#222222"
+    lightgrey: "#F5F5F5"
+  background: lightgrey
+  foreground: dark-grey
+  primary: black
+
+logo: 
+   small: assets/logo-fhnw.png
+   medium: assets/1x1.png
+
+typography:
+  fonts:
+    - family: Jura
+      source: google
+  base: Jura
+  headings: Jura

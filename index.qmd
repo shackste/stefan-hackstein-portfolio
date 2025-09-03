@@ -1,0 +1,26 @@
+---
+# title: "CAS Deep Learning - Grundlagen"
+format:
+  html:
+    toc: false
+about:
+  template: marquee #trestles
+#  image: "assets/fhnw-logo.png"
+  links:
+    - icon: inbox-fill
+      text: Email
+      href: mailto:stefan.hackstein@fhnw.ch    
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/stefan-hackstein-a914b81a5/
+---
+
+
+This is a webpage template
+
+
+
+
+
+
+

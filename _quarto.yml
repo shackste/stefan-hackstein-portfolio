@@ -1,0 +1,393 @@
+project:
+  type: website
+  resources:
+    - assets/*
+    - assets/images/*
+    - assets/pdfs/*
+    - slides/**
+  preview:
+    port: 8800
+    browser: false
+  output-dir: docs
+  render:
+    - index.qmd
+    - workshop/**/*.qmd
+    - slides/**/*.qmd
+    - exercises/**/*.qmd
+
+website:
+  title: "CAS Deep Learning - Grundlagen"
+  site-url: https://shackste.github.io/CAS-Deep-Learning-grundlagen/
+  favicon: /assets/robot.png
+  open-graph: true
+  search:
+    location: navbar
+    type: overlay
+
+  reader-mode: false
+  page-navigation: true
+  back-to-top-navigation: true
+
+  body-footer: |
+   <br><br><br><br>
+   Content licensed under [CC BY](https://creativecommons.org/licenses/by/4.0/), 
+   Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/"
+ 
+  navbar:
+    background: light
+    left:
+      - icon: card-list
+        href: workshop/index.qmd
+        text: Workshop
+        menu:
+          - icon: calendar
+            href: workshop/tag1.qmd
+            text: Tag 1
+          - icon: calendar
+            href: workshop/tag2.qmd
+            text: Tag 2
+          - icon: calendar
+            href: workshop/tag3.qmd
+            text: Tag 3
+
+      - icon: file-slides
+        href: slides/index.qmd
+        text: Slides
+        menu:
+          - icon: file
+            href: slides/0a-was-ist-ki/index.html
+            text: Was ist KI?
+          - icon: file
+            href: slides/0-overview/index.html
+            text: Übersicht
+          - icon: file
+            href: slides/1-daten-erkunden/index.html
+            text: Daten erkunden
+          - icon: file
+            href: slides/2-training/index.html
+            text: Training
+          - icon: file
+            href: slides/3-evaluieren/index.html
+            text: Evaluieren
+          - icon: file
+            href: slides/4-overfitting/index.html
+            text: Overfitting
+          - icon: file
+            href: slides/5-regularisieren/index.html
+            text: Regularisieren
+          - icon: file
+            href: slides/6-optimieren/index.html
+            text: Optimieren
+          - icon: file
+            href: slides/7-anwendungen/index.html
+            text: Anwendungen
+          - icon: file
+            href: slides/8-historie/index.html
+            text: Geschichte des DL
+          - icon: file
+            href: slides/9-zusammenfassung/index.html
+            text: Zusammenfassung
+
+      - icon: book
+        text: Slides (PDF)
+        menu:
+          - icon: file
+            href: slides/pdfs/ki-basics.pdf
+            text: Was ist KI?
+          - icon: file
+            href: slides/pdfs/deep-learning-overview.pdf
+            text: Übersicht
+          - icon: file
+            href: slides/pdfs/deep-learning-daten-erkunden.pdf
+            text: Daten erkunden
+          - icon: file
+            href: slides/pdfs/deep-learning-training.pdf
+            text: Modell & Training
+          - icon: file
+            href: slides/pdfs/deep-learning-evaluieren.pdf
+            text: Evaluieren
+          - icon: file
+            href: slides/pdfs/deep-learning-overfitting.pdf
+            text: Overfitting 
+          - icon: file
+            href: slides/pdfs/deep-learning-regularisieren.pdf
+            text: Regularisieren
+          - icon: file
+            href: slides/pdfs/deep-learning-optimieren.pdf
+            text: Optimieren  
+          - icon: file
+            href: slides/pdfs/deep-learning-grenzen.pdf
+            text: Möglichkeiten & Grenzen
+          - icon: file
+            href: slides/pdfs/deep-learning-anwendungen.pdf
+            text: Anwendungen
+          - icon: file
+            href: slides/pdfs/deep-learning-historie.pdf
+            text: Geschichte des Deep Learning
+          - icon: file
+            href: slides/pdfs/deep-learning-zusammenfassung.pdf
+            text: Zusammenfassung
+
+      - icon: pencil
+        href: exercises/index.qmd
+        text: Exercises
+        menu:
+          - icon: file
+            href: exercises/1-daten_erkunden.qmd
+            text: Daten erkunden
+          - icon: file
+            href: exercises/2-training.qmd
+            text: Training
+          - icon: file
+            href: exercises/3-evaluieren.qmd
+            text: Evaluieren
+          - icon: file
+            href: exercises/4-overfitting.qmd
+            text: Overfitting
+          - icon: file
+            href: exercises/5-regularisieren.qmd
+            text: Regularisieren
+          - icon: file
+            href: exercises/6-optimieren.qmd
+            text: Optimieren
+          - icon: file
+            href: exercises/7-anwendung.qmd
+            text: Anwendung
+          - icon: file
+            href: exercises/8-schritte.qmd
+            text: Schritte
+
+#    right:
+#      - icon: briefcase
+#        text: "Dokumente" # {{< fa person-chalkboard >}}
+#        menu:
+#          - text: "Begleitdokument: "
+#            file: assets/pdfs/Begleitdokument.pdf
+
+  sidebar:
+    - title: "Workshop"
+      logo: 1x1.png
+      style: "docked"
+      search: true
+      background: light
+      contents:
+        - workshop/index.qmd
+        - workshop/kursvorbereitung.qmd
+        - workshop/tag1.qmd
+        - workshop/tag2.qmd
+        - workshop/tag3.qmd
+
+    - title: "Exercises"
+      logo: 1x1.png
+      style: "docked"
+      search: true
+      background: light
+      contents:
+        - exercises/index.qmd
+        - exercises/1-daten_erkunden.qmd
+        - exercises/2-training.qmd
+        - exercises/3-evaluieren.qmd
+        - exercises/4-overfitting.qmd
+        - exercises/5-regularisieren.qmd
+        - exercises/6-optimieren.qmd
+        - exercises/7-anwendung.qmd
+        - exercises/8-schritte.qmd
+
+    - title: "Slides"
+      logo: 1x1.png
+      style: "docked"
+      search: true
+      background: light
+      contents:
+        - slides/index.qmd 
+        - href: slides/0a-was-ist-ki/index.html
+          text: Input 0a - Was ist KI?
+        - href: slides/0-overview/index.html
+          text: Input 0 - Übersicht
+        - href: slides/1-daten-erkunden/index.html
+          text: Input 1 - Daten erkunden
+        - href: slides/2-training/index.html
+          text: Input 2 - Model & Training
+        - href: slides/3-evaluieren/index.html
+          text: Input 3 - Evaluieren
+        - href: slides/4-overfitting/index.html
+          text: Input 4 - Overfitting
+        - href: slides/5-regularisieren/index.html
+          text: Input 5 - Regularisieren
+        - href: slides/6-optimieren/index.html
+          text: Input 6 - Optimieren
+        - href: slides/7-anwendungen/index.html
+          text: Input 7 - Anwendungen
+        - href: slides/8-historie/index.html
+          text: Input 8 - Geschichte des Deep Learning
+        - href: slides/9-zusammenfassung/index.html
+          text: Input 9 - Zusammenfassung
+
+
+
+format:
+  html:
+    theme:
+      light: [simplex]
+    toc: true
+    link-external-icon: true
+    link-external-newwindow: true
+    anchor-sections: true
+    smooth-scroll: true
+    linkcolor: rebeccapurple
+
+comments:
+  hypothesis:
+    theme: clean
+  # utterances:
+  # repo: shackste/CAS-Deep-Learning-grundlagen
+
+execute:
+  cache: true
+  freeze: auto
+  execute-dir: project
+
+editor:
+  render-on-save: true
+
+revealjs-plugins:
+  - attribution
+filters:
+  - timer
+  - custom-callout
+
+custom-callout:
+  # todo:
+  #   icon-symbol: "📝"
+  #   collapse: true
+  #   color: "pink"
+
+  # thumbs-up:
+  #   title: "Great job!"
+  #   icon-symbol: "👍🏼"
+  #   color: "steelblue"
+
+  # Activity Types
+  individual:
+    title: "Individual Work"
+    icon-symbol: "💻"
+    color: "steelblue"
+    collapse: false
+
+  pair:
+    title: "Pair Work"
+    icon-symbol: "👥"
+    color: "forestgreen"
+    collapse: false
+
+  group:
+    title: "Group Work"
+    icon-symbol: "👥"
+    color: "purple"
+    collapse: false
+
+  screens-down:
+    title: "Screens Down"
+    icon-symbol: "🔽"
+    color: "orange"
+    collapse: false
+
+  screens-up:
+    title: "Screens Up"
+    icon-symbol: "🔼"
+    color: "green"
+    collapse: false
+
+  # Learning Process
+  try:
+    title: "Try It"
+    icon-symbol: "🔄"
+    color: "blue"
+    collapse: false
+
+  reflect:
+    title: "Reflection"
+    icon-symbol: "💭"
+    color: "purple"
+    collapse: false
+
+  feedback:
+    title: "Feedback"
+    icon-symbol: "📝"
+    color: "teal"
+    collapse: true
+
+  caution:
+    title: "Watch Out"
+    icon-symbol: "⚠️"
+    color: "orange"
+    collapse: true
+
+  pro-tip:
+    title: "Pro Tip"
+    icon-symbol: "💡"
+    color: "gold"
+    collapse: true
+
+  # Technical Elements
+  prompt-example:
+    title: "Example Prompt:"
+    icon-symbol: "👩🏼‍🔧"
+    color: "steelblue"
+    collapse: false
+
+  tutor-example:
+    title: "Tutor:"
+    icon-symbol: "📄"
+    color: "purple"
+    collapse: false
+
+  prompt-template:
+    title: "Prompt Template"
+    icon-symbol: "📋"
+    color: "indigo"
+    collapse: true
+
+  testing:
+    title: "Test Your Prompt"
+    icon-symbol: "🧪"
+    color: "green"
+    collapse: false
+
+  export:
+    title: "Export"
+    icon-symbol: "📤"
+    color: "brown"
+    collapse: true
+
+  # Workshop Flow
+  setup:
+    title: "Setup"
+    icon-symbol: "⚙️"
+    color: "gray"
+    collapse: true
+
+  timing:
+    title: "Time Check"
+    icon-symbol: "⏱️"
+    color: "red"
+    collapse: false
+
+  break:
+    title: "Break Time"
+    icon-symbol: "☕"
+    color: "yellow"
+    collapse: false
+
+  checkpoint:
+    title: "Checkpoint"
+    icon-symbol: "🎯"
+    color: "purple"
+    collapse: false
+
+  schedule:
+    title: "Schedule"
+    icon-symbol: "⏰︎"
+    color: "steelblue"
+    collapse: false
+
